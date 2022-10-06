@@ -105,7 +105,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 64px;
 }
 
 .content-info-highlights-title {
@@ -140,10 +140,24 @@ body {
     text-align: center;
 }
 
-.content-quote {
+.quote {
     display: flex;
     flex-direction: column;
-    padding-top: 64px;
-    padding-bottom: 64px;
     background-color: #E5E7EB;
+    padding-left: 256px;
+    padding-right: 256px;
+}
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    flex: 1;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: right;
+    flex: 1;
 }
