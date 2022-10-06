@@ -139,3 +139,11 @@ body {
     display: flex;
     text-align: center;
 }
+
+.content-quote {
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #E5E7EB;
+}
