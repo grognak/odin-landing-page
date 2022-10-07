@@ -200,3 +200,13 @@ body {
     padding-bottom: 8px;
     border-radius: 8px;
 }
+
+.footer {
+    background-color: #1F2937;
+    padding-left: 256px;
+    padding-right: 256px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+    color:#E5E7EB;
+}
